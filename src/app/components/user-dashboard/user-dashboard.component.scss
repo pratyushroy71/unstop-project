@@ -1,0 +1,66 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.add-user-btn {
+  margin-bottom: 20px;
+  background-color: #1c4980;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-user-btn:hover {
+  background-color: #155a83;
+}
+
+.user-table {
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.user-table th {
+  background-color: #1c4980;
+  color: white;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+canvas {
+  width: 100% !important;
+  height: 400px !important;
+}
+
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.pagination-controls button {
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  cursor: pointer;
+}
